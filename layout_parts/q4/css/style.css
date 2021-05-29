@@ -24,29 +24,29 @@
   text-align: center;
 }
 
-.q4__content__item1 {
+.q4__content__items.pink {
   background-color: #fbc9b9;
   width: 100px;
 }
 
-.q4__content__item2 {
+.q4__content__items.purple {
   background-color: #e0abd9;
 }
 
-.q4__content__item3 {
+.q4__content__items.blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.q4__content__item4 {
+.q4__content__items.yellow {
   background-color: #e5d32e;
 }
 
-.q4__content__item5 {
+.q4__content__items.red {
   background-color: #ec8f9a;
 }
 
-.q4__content__item6 {
+.q4__content__items.green {
   background-color: #8fdcad;
   width: 500px;
 }
