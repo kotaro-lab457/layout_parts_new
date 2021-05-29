@@ -2,4 +2,99 @@
 
 /* 回答はここに書いてね */
 
+.q5__content {
+  background-color: #ecf1f2;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+
+.q5__content div {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.q5__content__items__1 {
+  background-color: #ffefd3;
+  position: relative;
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+.q5__content__items__2 {
+  background-color: #7084de;
+  position: absolute;
+  top: 120px;
+  right: 120px;
+}
+
+.q5__content__items__3 {
+  background-color: #d0ecea;
+  position: absolute;
+  top: 200px;
+  right: 40px;
+}
+
+.q5__content__items__4 {
+  background-color: #8b7a5e;
+  position: absolute;
+  top: 280px;
+  right: 120px;
+  z-index: 1;
+}
+
+.q5__content__items__5 {
+  background-color: #9fd6d2;
+  position: absolute;
+  top: 360px;
+  right: 200px;
+  z-index: 2;
+}
+
+.q5__content__items__6 {
+  background-color: #fffee4;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 2;
+}
+
+.q5__content__items__7 {
+  background-color: #deae70;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 3;
+}
+
+.q5__content__items__7::after {
+  content: "";
+  background-color: #de70cf;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.q5__content__items__8 {
+  background-color: #de70cf;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+
+.q5__content__items__9 {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
 /* 回答はここに書いてね */
