@@ -8,10 +8,10 @@
   clear: both;
 }
 
-.q1__content {
+.q1__contents {
   background-color: #eff3f4;
   margin: 0 auto;
-  width: 940px;
+  /* width: 940px; */
 }
 
 .q1__content__box {
