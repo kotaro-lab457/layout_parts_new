@@ -2,4 +2,75 @@
 
 /* 回答はここに書いてね */
 
+/* ー Q6-1 左右中央寄せ ー
+
+-----------------------------------*/
+
+.q6__box__top {
+  text-align: center;
+}
+
+.q6__box__top p {
+  display: inline-block;
+}
+.q6__box__top__text {
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.q6__box__top__text.q6__box__right {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+/* ー Q6-2 天地左右中央寄せ ー
+
+-----------------------------------*/
+
+.q6__box__middle {
+  display: table;
+}
+
+.q6__box__middle__head {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6__box__middle__foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6__box__middle__text {
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.q6__box__bottom {
+  position: relative;
+}
+
+.q6__box__hard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.q6__box__change {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  text-align: center;
+  transform: translate(50%, -50%);
+}
+
 /* 回答はここに書いてね */
