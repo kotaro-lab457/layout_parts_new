@@ -8,44 +8,30 @@
   text-align: center;
 }
 
-.q3__content thead {
-  background-color: #2244aa;
+.q3__content th,
+.q3__content td {
+  border: 1px solid #dadada;
+  padding: 10px 0;
+}
+
+.q3__content th {
+  background-color: #24a;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3__content__texts tr:last-child {
-  border-bottom: 2px dashed #000;
-}
-
-.q3__content__text td,
-th {
-  padding: 10px;
-  border: 1px solid #dedede;
-}
-
-.q3__content__text td {
+.q3__content td:not(:first-child) {
   font-size: 16px;
   line-height: 22px;
 }
 
-.q3__content__text td:first-child {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.q3__content__text th:first-child {
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
-  background-color: #2244aa;
-}
-
-.q3__content__text:nth-child(2n) {
+.q3__content__text tr:nth-child(even) {
   background-color: #ecf1f2;
+}
+
+.q3__content__text tr:last-child {
+  border-top: 2px dashed #000;
 }
 
 /* 回答はここに書いてね */
