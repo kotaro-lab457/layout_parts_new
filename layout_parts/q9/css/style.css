@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.q9__content {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 5px solid #222;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.q9__content::before,
+.q9__content::after {
+  content: "";
+  border: 20px solid transparent;
+  position: absolute;
+  left: 25px;
+}
+
+.q9__content::before {
+  border-top-color: #222;
+  bottom: -45px;
+}
+
+.q9__content::after {
+  border-top-color: #fff;
+  bottom: -37px;
+}
+
+.q9__content__text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
 /* 回答はここに書いてね */
