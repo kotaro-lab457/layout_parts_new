@@ -11,42 +11,43 @@
 .q4__content__boxes {
   display: table;
   width: 100%;
-}
-
-.q4__content__boxes:last-child {
   margin-top: 20px;
 }
 
-.q4__content__boxes div {
+.q4__content__boxes:last-child {
+  margin-top: 0;
+}
+
+.q4__content__box {
   display: table-cell;
   padding: 20px 0;
   box-sizing: border-box;
   text-align: center;
 }
 
-.q4__content__box.pink {
+.pink {
   background-color: #fbc9b9;
   width: 100px;
 }
 
-.q4__content__box.purple {
+.purple {
   background-color: #e0abd9;
 }
 
-.q4__content__box.blue {
+.blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.q4__content__box.yellow {
+.yellow {
   background-color: #e5d32e;
 }
 
-.q4__content__box.red {
+.red {
   background-color: #ec8f9a;
 }
 
-.q4__content__box.green {
+.green {
   background-color: #8fdcad;
   width: 500px;
 }

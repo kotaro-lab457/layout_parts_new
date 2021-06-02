@@ -2,6 +2,12 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .q2__content {
   width: 940px;
   margin: 0 auto;
@@ -9,9 +15,6 @@
   box-sizing: border-box;
   padding: 20px;
 }
-
-/* .q2__content__box {
-} */
 
 .q2__content__img__left {
   margin: 0 20px 10px 0;

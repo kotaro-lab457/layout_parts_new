@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.q5__contents div {
+.q5__content {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -19,16 +19,16 @@
   width: 100px;
 }
 
-.q5__content.box-skin {
+.box-skin {
   background-color: #ffefd3;
-  position: relative;
+  /* position: relative; */
   position: absolute;
   top: 40px;
   right: 200px;
   z-index: 1;
 }
 
-.q5__content.box-blue-purple {
+.box-blue-purple {
   background-color: #7084de;
   position: absolute;
   top: 120px;
@@ -36,7 +36,7 @@
   z-index: 2;
 }
 
-.q5__content.box-right-skyblue {
+.box-right-skyblue {
   background-color: #d0ecea;
   position: absolute;
   top: 200px;
@@ -44,7 +44,7 @@
   z-index: 3;
 }
 
-.q5__content.box-dark-brown {
+.box-dark-brown {
   background-color: #8b7a5e;
   position: absolute;
   top: 280px;
@@ -52,7 +52,7 @@
   z-index: 4;
 }
 
-.q5__content.box-dark-skyblue {
+.box-dark-skyblue {
   background-color: #9fd6d2;
   position: absolute;
   top: 360px;
@@ -60,7 +60,7 @@
   z-index: 5;
 }
 
-.q5__content.box-beige {
+.box-beige {
   background-color: #fffee4;
   position: absolute;
   top: 280px;
@@ -68,7 +68,7 @@
   z-index: 6;
 }
 
-.q5__content.box-brown {
+.box-brown {
   background-color: #deae70;
   position: absolute;
   top: 200px;
@@ -76,7 +76,7 @@
   z-index: 7;
 }
 
-.q5__content.box-pink {
+.box-pink {
   background-color: #de70cf;
   position: absolute;
   top: 120px;
@@ -84,7 +84,7 @@
   z-index: 8;
 }
 
-.q5__content.box-pink::after {
+.box-pink::after {
   content: "";
   background-color: #ffefd3;
   position: absolute;
@@ -94,7 +94,7 @@
   width: 20px;
 }
 
-.q5__content.box-navy-blue {
+.box-navy-blue {
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
