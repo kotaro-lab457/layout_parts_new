@@ -12,13 +12,19 @@
   background-color: #eff3f4;
   margin: 0 auto;
   width: 940px;
+  padding: 20px;
+}
+
+.q1__content__box:first-child {
+  margin-left: 0;
 }
 
 .q1__content__box {
   background-color: #3274ae;
   box-sizing: border-box;
   float: left;
-  margin: 20px 0 20px 20px;
+  /* margin: 20px 0 20px 20px; */
+  margin-left: 20px;
   padding: 20px;
   width: 270px;
 }
