@@ -25,6 +25,7 @@
   position: absolute;
   top: 40px;
   right: 200px;
+  z-index: 1;
 }
 
 .q5__content.box-blue-purple {
@@ -32,6 +33,7 @@
   position: absolute;
   top: 120px;
   right: 120px;
+  z-index: 2;
 }
 
 .q5__content.box-right-skyblue {
@@ -39,6 +41,7 @@
   position: absolute;
   top: 200px;
   right: 40px;
+  z-index: 3;
 }
 
 .q5__content.box-dark-brown {
@@ -46,7 +49,7 @@
   position: absolute;
   top: 280px;
   right: 120px;
-  z-index: 1;
+  z-index: 4;
 }
 
 .q5__content.box-dark-skyblue {
@@ -54,7 +57,7 @@
   position: absolute;
   top: 360px;
   right: 200px;
-  z-index: 2;
+  z-index: 5;
 }
 
 .q5__content.box-beige {
@@ -62,7 +65,7 @@
   position: absolute;
   top: 280px;
   left: 120px;
-  z-index: 2;
+  z-index: 6;
 }
 
 .q5__content.box-brown {
@@ -70,17 +73,7 @@
   position: absolute;
   top: 200px;
   left: 40px;
-  z-index: 3;
-}
-
-.q5__content.box-brown::after {
-  content: "";
-  background-color: #de70cf;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 20px;
-  width: 20px;
+  z-index: 7;
 }
 
 .q5__content.box-pink {
@@ -88,6 +81,17 @@
   position: absolute;
   top: 120px;
   left: 120px;
+  z-index: 8;
+}
+
+.q5__content.box-pink::after {
+  content: "";
+  background-color: #ffefd3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
 }
 
 .q5__content.box-navy-blue {
@@ -95,6 +99,7 @@
   position: fixed;
   top: 10px;
   left: 10px;
+  z-index: 9;
 }
 
 /* 回答はここに書いてね */
