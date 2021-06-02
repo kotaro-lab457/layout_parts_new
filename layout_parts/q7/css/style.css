@@ -2,4 +2,91 @@
 
 /* 回答はここに書いてね */
 
+/* Q7 共通
+
+-------------------------------*/
+.q7__box__item {
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+.q7__box__item.is-item-current {
+  margin: 0;
+}
+
+/* ー Q7-1 floatでの横並び ー
+
+-------------------------------*/
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7__box__push {
+  float: left;
+}
+
+/* ー Q7-2 tableでの横並び ー
+
+-------------------------------*/
+
+.q7__box__tables {
+  display: table;
+}
+
+.q7__box__table {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* ー Q7-3 inline-blockでの横並び ー
+
+-------------------------------*/
+
+.q7__box__wrapper {
+  font-size: 0;
+}
+
+.q7__box__container {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+/* ー Q7-4 flexでの横並び ー
+
+-------------------------------*/
+
+.q7__box__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* ー Q7-5 inline-blockとmarginでの横並び ー
+
+-------------------------------*/
+
+/* .q7__box__wrapper {
+  font-size: 0;
+} */
+
+.q7__box__hard {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+
+.q7__box__change {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-left: 350px;
+  margin-left: -300px;
+  font-size: 18px;
+}
 /* 回答はここに書いてね */
