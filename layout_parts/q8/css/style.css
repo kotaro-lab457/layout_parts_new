@@ -2,4 +2,72 @@
 
 /* 回答はここに書いてね */
 
+/* ー Q8-1 transition（画像） ー
+
+-------------------------------*/
+
+.q8__box__thumb {
+  height: 333px;
+  width: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.q8__box__thumb img {
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.q8__box__thumb:hover img {
+  transform: scale(1.5, 1.5);
+  transition: 0.5s all;
+}
+
+.q8__box__note {
+  position: absolute;
+  right: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  transition: 0.5s all;
+}
+
+.q8__box__text {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 16px;
+  word-break: break-all;
+}
+
+.q8__box__thumb:hover .q8__box__note {
+  bottom: 0;
+  transition: 0.5s all;
+}
+
+/* ー Q8-2 animation（アニメーション） ー
+
+-------------------------------*/
+
+.q8__loading {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border: 10px solid #ecf1f2;
+  border-top: 10px solid #00bcd4;
+  border-radius: 50%;
+  animation: sp-anime 1.1s infinite linear;
+}
+
+@keyframes sp-anime {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* 回答はここに書いてね */
