@@ -88,7 +88,7 @@
 .box-pink::after {
   content: "";
   background-color: #ffefd3;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   right: 0;
   height: 20px;
