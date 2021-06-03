@@ -17,12 +17,13 @@
   line-height: 100px;
   height: 100px;
   width: 100px;
+  position: absolute;
 }
 
 .box-skin {
   background-color: #ffefd3;
   /* position: relative; */
-  position: absolute;
+  /* position: absolute; */
   top: 40px;
   right: 200px;
   z-index: 1;
@@ -30,7 +31,7 @@
 
 .box-blue-purple {
   background-color: #7084de;
-  position: absolute;
+  /* position: absolute; */
   top: 120px;
   right: 120px;
   z-index: 2;
@@ -38,7 +39,7 @@
 
 .box-right-skyblue {
   background-color: #d0ecea;
-  position: absolute;
+  /* position: absolute; */
   top: 200px;
   right: 40px;
   z-index: 3;
@@ -46,7 +47,7 @@
 
 .box-dark-brown {
   background-color: #8b7a5e;
-  position: absolute;
+  /* position: absolute; */
   top: 280px;
   right: 120px;
   z-index: 4;
@@ -54,7 +55,7 @@
 
 .box-dark-skyblue {
   background-color: #9fd6d2;
-  position: absolute;
+  /* position: absolute; */
   top: 360px;
   right: 200px;
   z-index: 5;
@@ -62,7 +63,7 @@
 
 .box-beige {
   background-color: #fffee4;
-  position: absolute;
+  /* position: absolute; */
   top: 280px;
   left: 120px;
   z-index: 6;
@@ -70,7 +71,7 @@
 
 .box-brown {
   background-color: #deae70;
-  position: absolute;
+  /* position: absolute; */
   top: 200px;
   left: 40px;
   z-index: 7;
@@ -78,7 +79,7 @@
 
 .box-pink {
   background-color: #de70cf;
-  position: absolute;
+  /* position: absolute; */
   top: 120px;
   left: 120px;
   z-index: 8;
@@ -87,7 +88,7 @@
 .box-pink::after {
   content: "";
   background-color: #ffefd3;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 0;
   height: 20px;

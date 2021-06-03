@@ -14,7 +14,7 @@
   margin-top: 20px;
 }
 
-.q4__content__boxes:last-child {
+.q4__content__boxes:first-child {
   margin-top: 0;
 }
 
