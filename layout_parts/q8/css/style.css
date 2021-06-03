@@ -20,8 +20,8 @@
 }
 
 .q8__box__thumb:hover img {
-  transform: scale(1.5, 1.5);
-  transition: 0.5s all;
+  transform: scale(1.5);
+  /* transition: 0.5s all; */
 }
 
 .q8__box__note {
@@ -47,7 +47,7 @@
 
 .q8__box__thumb:hover .q8__box__note {
   bottom: 0;
-  transition: 0.5s all;
+  /* transition: 0.5s all; */
 }
 
 /* ー Q8-2 animation（アニメーション） ー
@@ -65,6 +65,9 @@
 }
 
 @keyframes rotation {
+  0% {
+    transition: rotate(0deg);
+  }
   100% {
     transform: rotate(360deg);
   }
