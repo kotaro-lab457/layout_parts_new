@@ -11,7 +11,8 @@
   margin-left: 50px;
   font-size: 16px;
 }
-.q7__box__item.is-item-current {
+
+.q7__box__item:first-child {
   margin: 0;
 }
 
@@ -42,6 +43,10 @@
   vertical-align: middle;
 }
 
+.is-table-current {
+  padding-left: 50px;
+}
+
 /* ー Q7-3 inline-blockでの横並び ー
 
 -------------------------------*/
@@ -63,6 +68,10 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+}
+
+.is-flex-current {
+  margin: 0;
 }
 
 /* ー Q7-5 inline-blockとmarginでの横並び ー
